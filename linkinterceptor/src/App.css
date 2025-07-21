@@ -40,3 +40,14 @@
 .read-the-docs {
   color: #888;
 }
+
+.blink-text {
+  animation: blink 1s steps(2, start) infinite;
+  color: red; /* optional: makes it stand out */
+}
+
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}

@@ -37,8 +37,8 @@ function linkinterceptor() {
 
       <section id="waitlist" className="py-5 px-3 text-center">
         <h2 className="h2 mb-3">Be the First to Try It</h2>
-        <p className="mb-4 w-75 mx-auto">
-          Early testers get free premium features. Join 100+ others interested in smart browsing protection.
+        <p className="mb-4 w-75 mx-auto blink-text">
+          Want to be an Early tester. Join others interested in smart browsing protection.
         </p>
         <form action="https://formspree.io/f/xkgbezya" method="POST" className="w-50 mx-auto">
           <div className="mb-3">
