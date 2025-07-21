@@ -42,8 +42,8 @@
 }
 
 .blink-text {
-  animation: blink 1s steps(2, start) infinite;
-  color: red; /* optional: makes it stand out */
+  animation: blink 0.5s steps(2, start) infinite;
+  color: red; 
 }
 
 @keyframes blink {
