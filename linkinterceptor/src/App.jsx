@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import {BrowserRouter as Router,Routes,Route } from 'react-router-dom'
 
 import './App.css'
 import Linkinterceptor from './components/Linkinterceptor';
@@ -8,7 +9,12 @@ function App() {
 
   return (
     <div className="App">
-      <Linkinterceptor />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Linkinterceptor />} />
+        </Routes>
+      </Router>
+     
     </div>
   )
 }
