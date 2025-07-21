@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Router basename='/Link-Interceptor'>
         <Routes>
-          <Route path="" element={<Linkinterceptor />} />
+          <Route path="/" element={<Linkinterceptor />} />
         </Routes>
       </Router>
      
